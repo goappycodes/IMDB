@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.swatiag1101.imdb.ActivityPackage.TopRatedMovies">
+    <item android:id="@+id/menusearch"
+        android:title="New"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menuGoBack"
+        android:title="New"
+        android:icon="@drawable/go_back_icon"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/voteasc"
+        android:title="Vote Asc"/>
+
+    <item android:id="@+id/votedesc"
+        android:title="Vote Desc"/>
+
+    <item android:id="@+id/dateasc"
+        android:title="Date Asc"/>
+
+    <item android:id="@+id/datedesc"
+        android:title="Date Desc"/>
+
+    <item android:id="@+id/popasc"
+        android:title="Popularity Asc"/>
+
+    <item android:id="@+id/popdesc"
+        android:title="Popularity Desc"/>
+
+</menu>

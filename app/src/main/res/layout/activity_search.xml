@@ -1,0 +1,34 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swatiag1101.imdb.ActivityPackage.Search">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/genre"
+        android:text="Genre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/genrelist"
+        android:layout_below="@+id/genre"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:id="@+id/view1"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_below="@+id/genrelist"/>
+
+
+</RelativeLayout>
+</ScrollView>

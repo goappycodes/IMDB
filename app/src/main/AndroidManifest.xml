@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swatiag1101.imdb" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ActivityPackage.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityPackage.DetailsOfMovies"
+            android:label="@string/title_activity_details_of_movies" >
+        </activity>
+        <activity
+            android:name=".ActivityPackage.Latest_Movies"
+            android:label="@string/title_activity_latest__movies" >
+        </activity>
+        <activity
+            android:name=".ActivityPackage.UpcomingMovies"
+            android:label="@string/title_activity_upcoming_movies" >
+        </activity>
+        <activity
+            android:name=".ActivityPackage.PopularMovies"
+            android:label="@string/title_activity_popular_movies" >
+        </activity>
+        <activity
+            android:name=".ActivityPackage.TopRatedMovies"
+            android:label="@string/title_activity_top_rated_movies" >
+        </activity>
+        <activity
+            android:name=".ActivityPackage.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".ActivityPackage.Search_Page"
+            android:label="@string/title_activity_search__page" >
+        </activity>
+    </application>
+
+</manifest>
